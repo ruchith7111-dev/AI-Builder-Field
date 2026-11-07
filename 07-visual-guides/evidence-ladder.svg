@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="title desc">
+<title id="title">Evidence ladder</title>
+<desc id="desc">Seven ascending levels: suggestion, inspection, static checks, unit tests, integration tests, realistic validation, and operational evidence.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0F172A"/><stop offset="1" stop-color="#1E1B4B"/></linearGradient><linearGradient id="bar" x2="1"><stop stop-color="#4F46E5"/><stop offset="1" stop-color="#0D9488"/></linearGradient></defs>
+<rect width="1100" height="700" rx="32" fill="url(#bg)"/>
+<text x="64" y="76" fill="#F8FAFC" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">THE EVIDENCE LADDER</text>
+<text x="64" y="112" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="17">Match the strength of your claim to the strength of your checks.</text>
+<g font-family="Inter,Arial,sans-serif">
+ <g transform="translate(80 160)"><rect width="300" height="50" rx="12" fill="#312E81"/><text x="22" y="32" fill="#E0E7FF" font-size="18" font-weight="700">1 · Suggestion</text><text x="335" y="32" fill="#CBD5E1" font-size="15">A model proposed an approach.</text></g>
+ <g transform="translate(80 224)"><rect width="400" height="50" rx="12" fill="#3730A3"/><text x="22" y="32" fill="#E0E7FF" font-size="18" font-weight="700">2 · Inspection</text><text x="435" y="32" fill="#CBD5E1" font-size="15">Relevant code and config were read.</text></g>
+ <g transform="translate(80 288)"><rect width="500" height="50" rx="12" fill="#4338CA"/><text x="22" y="32" fill="#EEF2FF" font-size="18" font-weight="700">3 · Static checks</text><text x="535" y="32" fill="#CBD5E1" font-size="15">Types, lint, or analysis passed.</text></g>
+ <g transform="translate(80 352)"><rect width="600" height="50" rx="12" fill="#4F46E5"/><text x="22" y="32" fill="#FFFFFF" font-size="18" font-weight="700">4 · Unit tests</text><text x="635" y="32" fill="#CBD5E1" font-size="15">A narrow behaviour was exercised.</text></g>
+ <g transform="translate(80 416)"><rect width="700" height="50" rx="12" fill="#0F766E"/><text x="22" y="32" fill="#CCFBF1" font-size="18" font-weight="700">5 · Integration tests</text><text x="735" y="32" fill="#CBD5E1" font-size="15">Components were tested together.</text></g>
+ <g transform="translate(80 480)"><rect width="800" height="50" rx="12" fill="#0D9488"/><text x="22" y="32" fill="#FFFFFF" font-size="18" font-weight="700">6 · Realistic validation</text><text x="835" y="32" fill="#CBD5E1" font-size="15">Representative inputs and failures.</text></g>
+ <g transform="translate(80 544)"><rect width="900" height="50" rx="12" fill="url(#bar)"/><text x="22" y="32" fill="#FFFFFF" font-size="18" font-weight="700">7 · Operational evidence</text><text x="935" y="32" fill="#CBD5E1" font-size="15">Monitoring and live behaviour.</text></g>
+</g>
+<text x="64" y="648" fill="#99F6E4" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Never claim a higher level than you have actually checked.</text>
+</svg>
