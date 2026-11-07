@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+<title id="title">The AI-assisted build loop</title>
+<desc id="desc">Five steps: frame the problem, inspect context, plan a small slice, implement with AI assistance, and verify with evidence. Feedback returns from verification to framing.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#172554"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6366F1"/><stop offset="1" stop-color="#14B8A6"/></linearGradient>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#94A3B8" stroke-width="1.6"/></marker>
+</defs>
+<rect width="1400" height="560" rx="34" fill="url(#bg)"/>
+<text x="70" y="76" fill="#E2E8F0" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">THE AI-ASSISTED BUILD LOOP</text>
+<text x="70" y="112" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="17">AI accelerates implementation. Engineering judgement closes the loop.</text>
+<path d="M280 282 H330 M535 282 H585 M790 282 H840 M1045 282 H1095" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+<g font-family="Inter,Arial,sans-serif">
+ <g transform="translate(70 190)"><rect width="210" height="190" rx="22" fill="#172554" stroke="#818CF8" stroke-width="2"/><circle cx="35" cy="36" r="18" fill="#6366F1"/><text x="35" y="42" fill="white" font-size="17" text-anchor="middle" font-weight="700">1</text><text x="25" y="88" fill="#F8FAFC" font-size="22" font-weight="700">Frame</text><text x="25" y="120" fill="#CBD5E1" font-size="15">User problem</text><text x="25" y="144" fill="#CBD5E1" font-size="15">Acceptance criteria</text><text x="25" y="168" fill="#CBD5E1" font-size="15">Constraints</text></g>
+ <g transform="translate(325 190)"><rect width="210" height="190" rx="22" fill="#172554" stroke="#818CF8" stroke-width="2"/><circle cx="35" cy="36" r="18" fill="#6366F1"/><text x="35" y="42" fill="white" font-size="17" text-anchor="middle" font-weight="700">2</text><text x="25" y="88" fill="#F8FAFC" font-size="22" font-weight="700">Inspect</text><text x="25" y="120" fill="#CBD5E1" font-size="15">Existing code</text><text x="25" y="144" fill="#CBD5E1" font-size="15">Data contracts</text><text x="25" y="168" fill="#CBD5E1" font-size="15">Known risks</text></g>
+ <g transform="translate(580 190)"><rect width="210" height="190" rx="22" fill="#172554" stroke="#2DD4BF" stroke-width="2"/><circle cx="35" cy="36" r="18" fill="#0D9488"/><text x="35" y="42" fill="white" font-size="17" text-anchor="middle" font-weight="700">3</text><text x="25" y="88" fill="#F8FAFC" font-size="22" font-weight="700">Plan</text><text x="25" y="120" fill="#CBD5E1" font-size="15">Smallest slice</text><text x="25" y="144" fill="#CBD5E1" font-size="15">Interfaces</text><text x="25" y="168" fill="#CBD5E1" font-size="15">Test strategy</text></g>
+ <g transform="translate(835 190)"><rect width="210" height="190" rx="22" fill="#172554" stroke="#2DD4BF" stroke-width="2"/><circle cx="35" cy="36" r="18" fill="#0D9488"/><text x="35" y="42" fill="white" font-size="17" text-anchor="middle" font-weight="700">4</text><text x="25" y="88" fill="#F8FAFC" font-size="22" font-weight="700">Build</text><text x="25" y="120" fill="#CBD5E1" font-size="15">AI-assisted code</text><text x="25" y="144" fill="#CBD5E1" font-size="15">Review the diff</text><text x="25" y="168" fill="#CBD5E1" font-size="15">Keep changes small</text></g>
+ <g transform="translate(1090 190)"><rect width="240" height="190" rx="22" fill="#102A2A" stroke="#2DD4BF" stroke-width="2"/><circle cx="35" cy="36" r="18" fill="#0D9488"/><text x="35" y="42" fill="white" font-size="17" text-anchor="middle" font-weight="700">5</text><text x="25" y="88" fill="#F8FAFC" font-size="22" font-weight="700">Verify</text><text x="25" y="120" fill="#CCFBF1" font-size="15">Run tests</text><text x="25" y="144" fill="#CCFBF1" font-size="15">Inspect edge cases</text><text x="25" y="168" fill="#CCFBF1" font-size="15">Record evidence</text></g>
+</g>
+<path d="M1210 405 V455 H175 V405" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+<text x="700" y="490" text-anchor="middle" fill="#99F6E4" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">FEEDBACK: what did the evidence teach us?</text>
+<text x="700" y="526" text-anchor="middle" fill="#64748B" font-family="Inter,Arial,sans-serif" font-size="13">A finished response is not the finish line. Verified behaviour is.</text>
+</svg>
