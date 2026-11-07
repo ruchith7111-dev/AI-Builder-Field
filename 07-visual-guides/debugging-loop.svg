@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Evidence-led debugging loop</title>
+<desc id="desc">Six connected stages: reproduce, minimise, inspect, hypothesise, test one cause, and correct and regress. A feedback arrow returns to reproduce.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#0F2A3D"/></linearGradient><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#67E8F9" stroke-width="1.5"/></marker></defs>
+<rect width="1200" height="650" rx="32" fill="url(#bg)"/>
+<text x="60" y="76" fill="#F8FAFC" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">DEBUG WITH EVIDENCE</text>
+<text x="60" y="110" fill="#94A3B8" font-family="Inter,Arial,sans-serif" font-size="17">One diagnostic step at a time. Don't turn debugging into random editing.</text>
+<g font-family="Inter,Arial,sans-serif" font-weight="700">
+ <g transform="translate(75 185)"><rect width="300" height="110" rx="18" fill="#172554" stroke="#818CF8" stroke-width="2"/><text x="24" y="44" fill="#A5B4FC" font-size="15">01</text><text x="24" y="78" fill="#FFFFFF" font-size="24">Reproduce</text></g>
+ <g transform="translate(450 185)"><rect width="300" height="110" rx="18" fill="#172554" stroke="#818CF8" stroke-width="2"/><text x="24" y="44" fill="#A5B4FC" font-size="15">02</text><text x="24" y="78" fill="#FFFFFF" font-size="24">Minimise</text></g>
+ <g transform="translate(825 185)"><rect width="300" height="110" rx="18" fill="#172554" stroke="#818CF8" stroke-width="2"/><text x="24" y="44" fill="#A5B4FC" font-size="15">03</text><text x="24" y="78" fill="#FFFFFF" font-size="24">Inspect</text></g>
+ <g transform="translate(825 405)"><rect width="300" height="110" rx="18" fill="#0F3B42" stroke="#2DD4BF" stroke-width="2"/><text x="24" y="44" fill="#99F6E4" font-size="15">04</text><text x="24" y="78" fill="#FFFFFF" font-size="24">Hypothesise</text></g>
+ <g transform="translate(450 405)"><rect width="300" height="110" rx="18" fill="#0F3B42" stroke="#2DD4BF" stroke-width="2"/><text x="24" y="44" fill="#99F6E4" font-size="15">05</text><text x="24" y="78" fill="#FFFFFF" font-size="24">Test one cause</text></g>
+ <g transform="translate(75 405)"><rect width="300" height="110" rx="18" fill="#0F3B42" stroke="#2DD4BF" stroke-width="2"/><text x="24" y="44" fill="#99F6E4" font-size="15">06</text><text x="24" y="78" fill="#FFFFFF" font-size="24">Correct + regress</text></g>
+</g>
+<g stroke="#67E8F9" stroke-width="3" fill="none" marker-end="url(#arr)"><path d="M375 240 H442"/><path d="M750 240 H817"/><path d="M975 295 V397"/><path d="M825 460 H757"/><path d="M450 460 H382"/><path d="M225 405 V355 H975 V303"/></g>
+<text x="600" y="590" text-anchor="middle" fill="#A5F3FC" font-family="Inter,Arial,sans-serif" font-size="17">If the evidence does not explain the failure, return to the reproduction.</text>
+</svg>
