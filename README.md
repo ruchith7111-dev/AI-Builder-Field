@@ -84,15 +84,25 @@ These diagrams are part of the repository and are designed to be read alongside 
 
 | Visual | What it explains |
 |---|---|
-| [The AI-assisted build loop](07-visual-guides/build-loop.svg) | From problem to verified change |
-| [The evidence ladder](07-visual-guides/evidence-ladder.svg) | How to distinguish claims from tested behaviour |
-| [A reliable debugging loop](07-visual-guides/debugging-loop.svg) | Reproduce, isolate, test, and record |
+### The build loop
+
+![AI-assisted build loop](07-visual-guides/build-loop.svg)
+
+### The evidence ladder
+
+![Evidence ladder](07-visual-guides/evidence-ladder.svg)
+
+### Debugging without guesswork
+
+![Evidence-led debugging loop](07-visual-guides/debugging-loop.svg)
+
+More system-specific diagrams: [resume parser data flow](07-visual-guides/resume-parser-flow.svg) · [RAG system map](07-visual-guides/rag-system-map.svg).
 
 ## Video room
 
 This section is intentionally different from a link directory. It is designed for **short, direct walkthroughs** with a real playable video asset and a clear learning outcome.
 
-GitHub's video player requires an uploaded GitHub-hosted attachment. The connected repository writer can create text and SVG files, but cannot upload a binary video attachment. Until a real clip is attached, each lesson is listed as **planned**, not as a playable video.
+Inline playback will be added when original MP4 walkthroughs are published as GitHub-hosted video attachments. At present, this room contains the recording outlines and learning objectives—not pretend players or thumbnail links.
 
 [Open the video room →](08-video-room/README.md)
 
